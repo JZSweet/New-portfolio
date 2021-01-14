@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<title>Portfolio 2.0</title>
+</head>
+
+<body>
+    <section class="hero is-medium is-light is-bold">
+        <header class="hero-body">
+            <div class="container">
+                <h1 class="title" style="text-align:center;">
+                    JZ'S PORTFOLIO &#10024;
+                </h1>
+                <h2 class="subtitle" style="text-align:center; font-family: Verdana;">
+                    My Project Gallery 
+                    <img src="assets/me.png" style="width:9%; float: inherit; ">
+                </h2>
+            </div>
+        </header>
+    </section>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: rgb(72, 22, 95);
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgb(238, 233, 158);
+        }
+
+        .numbertext {
+            color: #377a64;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px 12px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: rgb(219, 197, 197);
+            border: 2px solid rgb(245, 201, 201);
+            top: 0;
+        }
+
+        .caption-container {
+            text-align: center;
+            background-color: rgb(219, 197, 197);
+            padding: 2px 16px;
+            color: rgb(22, 81, 88);
+            font-family: Monaco, Monospace;
+            font-weight: bold;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
+
+    <nav class="navbar is-light is-fixed-top " role="navigation" aria-label="dropdown navigation">
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+                &#127751;Home
+            </a>
+
+            <div class="navbar-dropdown">
+                <a class="navbar-item" href="./index.html">
+                    Portfolio Page
+                </a>
+                <a class="navbar-item" href="./about.html">
+                    About JZ
+                </a>
+                <a class="navbar-item" href="./contact.html">
+                    Contact Info
+                </a>
+                <hr class="navbar-divider">
+                <div class="navbar-item">
+                    Version 2.0
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>An entertainment guide for my first group
+                    project</strong></div>
+            <a href="https://kytaylor.github.io/entertainment-guide/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Groupwork.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>A work day planer</strong></div>
+            <a href="https://jzsweet.github.io/Day-scheduler/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Dayplaner.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>A random password generator</strong></div>
+            <a href="https://jzsweet.github.io/Password-generater/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Password.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>A quiz game for your JavaScript
+                    knowledge</strong></div>
+            <a href="https://jzsweet.github.io/countdown-quiz/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Quiz.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>A Weather dashboard</strong></div>
+            <a href="https://jzsweet.github.io/Weather-Dashboard/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Weather.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext" style="text-align:center;"><strong>The first portfolio I made</strong></div>
+            <a href="https://jzsweet.github.io/porfolio/"><strong>Click Me&#128064;</strong></a>
+            <img src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\portfolio 1.0.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+            <p id="caption">Some of my works</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Groupwork.png"
+                    style="width:100%" onclick="currentSlide(1)" alt="Group project">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Dayplaner.png"
+                    style="width:100%" onclick="currentSlide(2)" alt="Day scheduler">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Password.png"
+                    style="width:100%" onclick="currentSlide(3)" alt="Password generater">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Quiz.png"
+                    style="width:100%" onclick="currentSlide(4)" alt="Quiz game">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\Weather.png"
+                    style="width:100%" onclick="currentSlide(5)" alt="Weather Dashboard">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="C:\Users\Sweet\Desktop\MyCode\New-portfolio\assets\portfolio 1.0.png"
+                    style="width:100%" onclick="currentSlide(6)" alt="portfolio 1.0">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                This page is brought to you by <strong>JZ</strong>&#127800;
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
