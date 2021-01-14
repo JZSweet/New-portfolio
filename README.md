@@ -7,8 +7,8 @@ https://jzsweet.github.io/New-portfolio/
 My second portfolio.
 
 ## Information include
-* A project gallery for passed work.
+* A project gallery for passed works.
 * A about me page.
-* a contact page.
+* a contact me page.
 ## Img
 ![](assets/readme.png)
